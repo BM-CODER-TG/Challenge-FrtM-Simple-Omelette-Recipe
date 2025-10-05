@@ -76,6 +76,7 @@ hr {
     background: hsla(332, 51%, 32%, 0.071);
     padding: 20px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .prepa h4 {
@@ -105,13 +106,15 @@ b {
     font-size: 14px;
     font-family: 'family2';
     font-weight: 500;
-
 }
 
 .ingredient {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .ingredient h3 {
@@ -148,6 +151,9 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .instruction h3 {
