@@ -73,7 +73,7 @@ hr {
 }
 
 .prepa {
-    background: hsla(332, 51%, 32%, 0.071);
+    background: hsla(332, 68%, 72%, 0.089);;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -83,12 +83,13 @@ hr {
     font-family: 'family2';
     color: hsl(332, 51%, 32%);
     margin-bottom: 15px;
+    font-size: 22px;
 }
 
 .prepa ul {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 15px;
 }
 
 .prepa b {
