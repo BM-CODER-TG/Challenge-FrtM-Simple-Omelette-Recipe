@@ -227,37 +227,4 @@ hr {
     border-bottom: none;
 }
 
-@media (max-width: 375px) {
-    body {
-        background-color: hsl(0, 0%, 100%);
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        border-radius: none;
-    }
-    
-    .container {
-        width: 300px;
-        margin: 0;
-        padding: 0;
-        
-    }
-
-    .container img {
-        border-radius: 0;
-    }
-
-    .info {
-        padding: 25px;
-    }
-        
-.intro h1 {
-    font-size: 30px;
-    line-height: 30px;
-}
-
-.intro p {
-    font-size: 12.8px;
-}
-
-}
+@media (max-width: 375px)
