@@ -12,7 +12,7 @@ here is the image of my solution for the computer screen
 
 ## My Problem
 
-I need help to adapt my solution on small screens. I don’t yet master media queries
+I need help to adapt my solution on small screens. I don’t yet master media queries. Thanks
 
 
 ## Acknowledgments
