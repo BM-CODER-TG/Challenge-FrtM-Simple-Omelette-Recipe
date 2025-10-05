@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'family';
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'family2';
+    src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    gap: 20px;
+}
+
+.container {
+    width: 700px;
+    background: hsl(0, 0%, 100%);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 3px 5px 10px hsl(30, 18%, 87%);
+    border-radius: 10px;
+}
+
+hr {
+    color: hsl(30, 10%, 34%);
+}
+
+.container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.intro {
+    margin-bottom: 15px;
+}
+
+.intro h1 {
+    font-family: 'family';
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: hsl(24, 5%, 18%);
+    font-weight: 400;
+}
+
+.intro p {
+    font-family: 'family2';
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+
+.prepa {
+    background: hsla(332, 51%, 32%, 0.071);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.prepa h4 {
+    font-family: 'family2';
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 15px;
+}
+
+.prepa ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.prepa b {
+    margin-left: 8px;
+}
+
+b {
+    font-family: 'family2';
+}
+
+.prepa li {
+    margin-left: 20px;
+    padding: 0 10px;
+    color: hsl(30, 10%, 34%);
+    font-size: 14px;
+    font-family: 'family2';
+    font-weight: 500;
+
+}
+
+.ingredient {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ingredient h3 {
+    color: hsl(14, 45%, 36%);
+    font-family: 'family';
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.ingredient ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.ingredient li {
+    padding: 0 10px;
+    font-family: 'family2';
+    font-size: 14px;
+    color: hsl(30, 10%, 34%);
+    font-weight: 500;
+}
+
+.ingredient li {
+    margin-left: 10px;
+}
+
+hr {
+    border: 1px solid hsl(30, 18%, 87%);
+}
+
+.instruction {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.instruction h3 {
+    font-family: 'family';
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.instruction ol {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+.instruction li {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    font-family: 'family2';
+}
+
+.instruction li p {
+    font-size: 16px;
+    padding: 0 10px;
+    font-family: 'family2';
+    color: hsl(30, 10%, 34%);
+    font-weight: 500;
+}
+
+.nutrition {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nutrition h3 {
+    color: hsl(14, 45%, 36%);
+    font-family: 'family';
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.nutrition p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: hsl(30, 10%, 34%);
+    font-family: 'family2';
+}
+
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition td {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 8px 0;
+    font-family: 'family2';
+    color: hsl(30, 10%, 34%);
+    font-size: 14px;
+    padding-left: 20px;
+    font-weight: 400;
+}
+
+.nutrition strong {
+    color: hsl(14, 45%, 36%);
+}
+
+.nutrition .last td{
+    border-bottom: none;
+}
+
+@media (max-width: 375px) {
+    body {
+        background-color: hsl(0, 0%, 100%);
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius: none;
+    }
+    
+    .container {
+        width: 300px;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .container img {
+        border-radius: 0;
+    }
+
+    .info {
+        padding: 25px;
+    }
+        
+.intro h1 {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.intro p {
+    font-size: 12.8px;
+}
+
+}
